@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+    <style>
+       
+        table,tr,th,td{
+            border: 2px solid red;
+
+        }
+        th,td{
+            padding:10px;
+            text-align: center;
+        }
+        th{
+            background-color: aqua;
+
+        }
+        tr:nth-child(even){
+            background-color:yellow;
+        }
+        tr:hover{
+            background-color: bisque;
+        }
+        #button{
+            border: 1px;
+            padding:5px;
+            text-decoration: none;
+            margin-left: 10px;
+            background-color:pink;
+            color: palevioletred;
+        }
+        #button:hover{
+            color:purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Information</h1>
+    <table style="border-collapse:collapse;">
+        <tr>
+            <td colspan="5">MCA Department</td>
+            </tr>
+            <tr>
+            <td rowspan="4">MCA Department</td>
+        </tr>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Rahul</td>
+            <td>MCA</td>
+            <td>80%</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Rajesh</td>
+            <td>MCA</td>
+            <td>60%</td>
+        </tr>
+        
+
+    </table>
+    <a id="button"href="textcss.html">Submit</a>
+        <a id="button"href="textcss.html">Submit</a>
+</body>
+</html>
